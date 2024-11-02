@@ -1,0 +1,64 @@
+.author-of-the-month {
+    padding: 20px;
+    background-color: peachpuff; /* Light background color for the section */
+    margin: 20px 0;
+    border-radius: 10px; /* Rounded corners for a softer look */
+}
+
+.author-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.author-profile {
+    flex: 1;
+    display: flex;
+}
+
+.author-image {
+    width: 150px;
+    height: auto;
+    border-radius: 75px; /* Circular image */
+    margin-right: 20px;
+}
+
+.author-info h3 {
+    margin: 0;
+}
+
+.famous-books {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.famous-books h3 {
+    margin-bottom: 10px;
+}
+
+.book {
+    margin: 5px;
+}
+
+.book img {
+    width: 100px; /* Adjust width as needed */
+    height: auto;
+    transition: transform 0.3s; /* Add a hover effect */
+}
+
+.book img:hover {
+    transform: scale(1.1); /* Slightly enlarge image on hover */
+}
+
+/* Additional styles for a more creative look */
+.author-container {
+    border-top: 2px solid black; /* Add a top border */
+    padding-top: 15px; /* Space above books */
+}
+
+.custom-card {
+    background-color: peachpuff; 
+    border: none; 
+    border-radius: 10px; 
+}
